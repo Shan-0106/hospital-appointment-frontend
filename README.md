@@ -1,16 +1,54 @@
-# React + Vite
+# 🏥 Hospital Appointment Booking System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React.js frontend for the Hospital Appointment Booking System.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Beautiful responsive UI with gradient theme
+- ✅ Tab-based navigation
+- ✅ Real-time form validation
+- ✅ Doctor management interface
+- ✅ Patient registration
+- ✅ Appointment booking
+- ✅ Conflict prevention
+- ✅ Appointment cancellation
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React.js 18
+- **Build Tool:** Vite
+- **HTTP Client:** Axios
+- **Date Handling:** date-fns
+- **Styling:** CSS3
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js 18+
+
+### Setup Steps
+
+1. Clone the repository
+git clone https://github.com/Shan-0106/hospital-appointment-frontend.git
+cd hospital-appointment-frontend
+
+
+2. Install dependencies
+
+
+3. Update API URL in `src/services/api.js`
+
+const API_BASE_URL = 'https://localhost:7163/api';
+
+
+4. Run development server
+
+Application: `http://localhost:5173`
+
+## 🔗 Backend Repository
+
+ASP.NET Core Web API: https://github.com/Shan-0106/hospital-appointment-system
+
+## 👨‍💻 Author
+
+Shanmuganathan

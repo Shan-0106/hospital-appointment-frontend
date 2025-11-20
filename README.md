@@ -30,7 +30,7 @@ React.js frontend for the Hospital Appointment Booking System.
 
 1. Clone the repository
 git clone https://github.com/Shan-0106/hospital-appointment-frontend.git
-cd hospital-appointment-frontend
+hospital-appointment-frontend
 
 
 2. Install dependencies
